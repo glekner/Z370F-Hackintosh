@@ -256,8 +256,6 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
-			<key>AvoidRuntimeDefrag</key>
-			<true/>
 			<key>DevirtualiseMmio</key>
 			<true/>
 			<key>DisableSingleUser</key>
@@ -275,6 +273,10 @@
 			<key>ProtectCsmRegion</key>
 			<false/>
 			<key>ProtectSecureBoot</key>
+			<false/>
+			<key>AvoidRuntimeDefrag</key>
+			<true/>
+			<key>ProtectUefiServices</key>
 			<false/>
 			<key>ProvideCustomSlide</key>
 			<true/>
@@ -739,9 +741,9 @@
 			<key>SystemProductName</key>
 			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
-			<string>XXXXXXXXXXXX</string>
+			<string>XXXXXXXXXXXXXXXXX</string>
 			<key>SystemUUID</key>
-			<string>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX</string>
+			<string>XXXXXXXXXXXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXXX</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -758,7 +760,7 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>FwRuntimeServices.efi</string>
+			<string>OpenRuntime.efi</string>
 			<string>HfsPlus.efi</string>
 			<string>ApfsDriverLoader.efi</string>
 		</array>
